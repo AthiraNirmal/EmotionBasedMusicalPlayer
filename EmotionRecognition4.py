@@ -462,12 +462,7 @@ if __name__ == "__main__":
 
     authorVar = Tk.StringVar()
     authorLabel = Tk.Label(master=root, textvariable=authorVar)
-    authorString = "\n\n Developed By: " \
-                   "\n Athira Nirmal; " \
-                   " Aishwarya V Nair; " \
-                    "& Juhi Fathima " \
-                   "\n S8 CS1"     # Initial print
-    authorVar.set(authorString)
+
     authorLabel.pack(side=Tk.BOTTOM)
 
     root.iconbitmap(r'..\icon\happy-sad.ico')
